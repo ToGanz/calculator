@@ -1,0 +1,90 @@
+/* CSS */
+
+
+#calculator {
+    /* margin: auto; */
+    width: 200px;
+    height: 400px;
+    justify-self: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-areas: "display display display display"
+                         "clear clear . divide"
+                         "seven eight nine multiply"
+                         "four five six subtract"
+                         "one two three plus"
+                         "zero zero equal equal";
+    border: 6px solid black;
+    background-color: gray;
+    background-color: rgba(92, 78, 78, 0.329);
+    border-radius: 10px;
+}
+
+
+/* Row 1 */
+#display {
+    font-size: 40px;
+    grid-area: display;
+    background-color:green;
+    border: 2px solid black;
+}
+/* Row 2 */
+#clear {
+    grid-area: clear;
+    background-color: red;
+}
+
+#divide {
+    grid-area: divide;
+}
+/* Row 3 */
+#seven {
+    grid-area: seven;
+}
+#eight {
+    grid-area: eight;
+}
+#nine {
+    grid-area: nine;
+}
+#multiply {
+    grid-area: multiply;
+}
+/* Row 4 */
+#four {
+    grid-area: four;
+}
+#five {
+    grid-area: five;
+}
+#six {
+    grid-area: six;
+}
+#subtract {
+    grid-area: subtract;
+}
+/* Row 5 */
+#one {
+    grid-area: one;
+}
+
+#two {
+    grid-area: two;
+}
+
+#three {
+    grid-area: three;
+}
+
+#add {
+    grid-area: plus;
+}
+/* Row 6 */
+#zero {
+    grid-area: zero;
+}
+
+#equal {
+    grid-area: equal;
+}
