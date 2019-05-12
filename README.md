@@ -8,6 +8,9 @@ Pressing = before entering all of the numbers or an operator does nothing.
 “clear” wipes out any existing data.
 
 ToDo's : -floats
+
          -Keyboard Support
+         
          -Design Update
+         
          -overflowing Display
