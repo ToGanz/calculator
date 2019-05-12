@@ -7,7 +7,8 @@ Answers get rounded to 2 decimals.
 Pressing = before entering all of the numbers or an operator does nothing.
 “clear” wipes out any existing data.
 
-ToDo's : -floats
+ToDo's : 
+         -floats
 
          -Keyboard Support
          
